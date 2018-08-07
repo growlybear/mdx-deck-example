@@ -4,7 +4,7 @@
   "description": "Trying out mdx-deck",
   "main": "index.js",
   "scripts": {
-    "start": "mdx-deck deck.mdx -p 4000",
+    "start": "mdx-deck deck.mdx -p 4000 --title 'mdx-deck - as recommended by Kent!'",
     "build": "mdx-deck build deck.mdx",
     "pdf": "mdx-deck pdf deck.mdx",
     "test": "echo \"Error: no test specified\" && exit 1"
